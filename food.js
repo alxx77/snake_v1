@@ -20,6 +20,7 @@ export function draw(gameBoard) {
   gameBoard.appendChild(foodElement);
 }
 
+//nova pozicija hrane
 function getRandomFoodPosition(){
     let newFoodPosition;
 
